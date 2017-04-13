@@ -34,5 +34,7 @@ head ratings.dat
 The last column is a time stamp, we can get rid of the `::` with `sed`
 
 ```bash
-sed s/::/,/g ratings.dat > ratings.csv
+sed s/::/,/g ratings.dat > ratings_filtered.csv
 ```
+
+Put that in the `data/` folder.
