@@ -1,4 +1,4 @@
 *DS_Store
 *.ipynb_checkpoints
 *.jld
-data/ratings_filtered.csv
+*csv

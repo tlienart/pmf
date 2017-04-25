@@ -8,6 +8,8 @@
 # MAXNEVENTS
 # MAXT
 
+using PDMP, JLD
+
 params = Dict(
     "CHILDNAME"  => CHILDNAME,
     "LATENT_D"   => LATENT_D,
@@ -19,7 +21,6 @@ params = Dict(
     "MAXT"       => MAXT
 )
 
-using PDMP, JLD
 start = time()
 
 a = readdlm("data/ratings.csv", ',', Int)
